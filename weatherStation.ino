@@ -25,7 +25,7 @@ SFE_BMP180 bmp;
 void setup()
 {
   setupBmp180();
-  
+  setupDht22();
  
   
   
@@ -77,6 +77,9 @@ void setupDht22()
  Serial.println("DHT22 init!");
  
   dht.begin();
+}
+
+void setupDs1307 () {
 }
 
 //Get methods
